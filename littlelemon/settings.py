@@ -82,9 +82,9 @@ DATABASES = {
         'PORT' : '3306',
         'USER' : 'admindjango',
         'PASSWORD' : 'Employee@123!',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-        },
+        # 'OPTIONS': {
+        #     'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        # },
     }
 }
 
